@@ -1,0 +1,2 @@
+import React from 'react'
+export default function Services(){ return (<div><h1 className="text-2xl font-bold">Services</h1><ul className="list-disc ml-6"><li><a href="/buy-for-me">Buy For Me (US phones)</a></li><li><a href="/collaborate">Collaborate</a></li></ul></div>) }

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --bg: #F8F9FC; --accent: #0071E3; --logo-height: 56px; }
+body { @apply bg-[var(--bg)] text-gray-800 font-sans; -webkit-text-size-adjust:100%; touch-action:manipulation; -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color: transparent; }
+input, textarea, select { -webkit-user-select:text; user-select:text; }
+.header-logo { height: var(--logo-height); }
+.card:hover { transform: translateY(-6px); }
+.gallery-swipe { scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+.gallery-swipe img { scroll-snap-align: center; }
